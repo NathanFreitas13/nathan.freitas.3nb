@@ -1,0 +1,54 @@
+# Arquivos compilados
+/target/
+target/
+/debug/
+debug/
+/release/
+release/
+
+# Arquivos de cache
+/cargo.lock
+**/Cargo.lock
+
+# Arquivos temporários e de dependências do Cargo
+/.cargo/
+.cargo/
+/target/
+/debug/
+/release/
+/incremental/
+/out/
+
+# Arquivos do Rustup
+.rustup/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Arquivos específicos de IDEs e editores
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.bak
+*.rs.bk
+
+# Arquivos gerados pelo teste de compilação
+*.d
+*.o
+*.so
+*.exe
+*.dll
+*.dylib
+
+# Outros arquivos irrelevantes
+/tests/output/
+benches/output/
+docs/output/
